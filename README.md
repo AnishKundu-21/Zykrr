@@ -1,5 +1,7 @@
 # AI-Powered Support Ticket Triage
 
+**GitHub Repository:** https://github.com/AnishKundu-21/Zykrr
+
 A full-stack application that automatically classifies and prioritises customer support tickets using a **config-driven heuristic NLP pipeline** — no external AI APIs, no paid services, no internet required.
 
 Submit a ticket, and the system instantly returns its **category**, **priority (P0–P3)**, **urgency flag**, **confidence score**, and any triggered **custom rule flags**.
@@ -29,7 +31,7 @@ Submit a ticket, and the system instantly returns its **category**, **priority (
 The entire stack (backend + frontend) runs with a single command:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/AnishKundu-21/Zykrr.git
 cd Zykrr
 docker-compose up --build
 ```
